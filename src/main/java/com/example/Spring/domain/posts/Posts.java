@@ -9,7 +9,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Entity
 public class Posts {
-    @Id
+    @Id //PK(Primary Key)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
