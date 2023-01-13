@@ -9,7 +9,7 @@ import org.springframework.security.web.SecurityFilterChain;
 
 @RequiredArgsConstructor
 @EnableWebSecurity //1
-public class SecurityConfig{
+public class SecurityConfig {
     private final CustomOAuth2UserService customOAuth2UserService;
 
     @Bean
